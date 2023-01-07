@@ -312,7 +312,7 @@ body {
   border-radius: 4px;
 }
 .customers-icon {
-  color: #afb1b8;
+  fill: #afb1b8;
 }
 .customers-link:hover,
 .customers-link:focus {
@@ -320,7 +320,7 @@ body {
 }
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
-  color: #404bbf;
+  fill: #404bbf;
 }
 .footer {
   background: var(--body-color);
