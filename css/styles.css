@@ -27,6 +27,19 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
+.navigation-item,
+.contact-item,
+.goals-items,
+.services-images,
+.team-member,
+.portfolio-examples,
+.top-buttons,
+.team-soc-list,
+.customers-list,
+.footer-soc-list,
+.goals-icons-list {
+  list-style-type: none;
+}
 
 /* Main Page */
 
@@ -53,6 +66,9 @@ body {
   display: flex;
   gap: 40px;
 }
+.header-logo {
+  margin-right: 77px;
+}
 .navigation-logo-1 {
   font-family: 'Raleway';
   font-weight: 800;
@@ -70,26 +86,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--body-color);
-  margin-right: 77px;
 }
 .navigation-item {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.navigation-item,
-.contact-item,
-.goals-items,
-.services-images,
-.team-member,
-.portfolio-examples,
-.top-buttons,
-.team-soc-list,
-.customers-list,
-.footer-soc-list,
-.goals-icons-list {
-  list-style-type: none;
-}
+
 .navigation-link {
   color: var(--body-color);
 }
@@ -469,6 +473,10 @@ body {
   flex-wrap: nowrap;
   flex-direction: column;
   column-gap: 24px;
+}
+.portfolio-examples:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-images-text {
   background: #ffffff;
